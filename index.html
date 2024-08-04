@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./listie.css">
+
+
+</head>
+<body>
+    <div class="d-flex justify-content-start heading " id="box">
+        <img src="./list-images/bear.jpg" class="bear" id="bear">
+        <p class="todo">TO-DO-LIST</p>
+    </div>
+
+
+    <div class="running">
+        <div>
+            <img src="./list-images/bunny-removebg-preview.png"class="bunny">
+        </div>
+        <div class="line">
+
+        </div>
+
+    </div>
+
+    <section class="list-wala-part">
+         <div class="container">
+        
+            <p class="text-white head">TO-DO LIST
+            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="white" class="bi bi-card-checklist" viewBox="0 0 17 16">
+                <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z"/>
+                <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0M7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0"/>
+              </svg></p>
+            
+        <div class="search">
+            <input id="tasks" type="text" placeholder="add task">
+            <button onclick="addTask()" class="addTask" id="add">ADD</button>
+        </div>
+        <div>
+            <ul id="list-container">
+                <li class="checked"></li>
+                
+            </ul>
+        </div>
+        
+    </div>
+    <div>
+        <p></p>
+       <div class="left">
+        <img src="./list-images/left-removebg-preview.png" class="left2" id="left2">
+       </div>
+    </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+   
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="./listie.js"></script>
+</html>
